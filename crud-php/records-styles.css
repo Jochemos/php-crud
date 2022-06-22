@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+.table-container .table-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 5%;
+  background: #e6b800;
+  border: solid black;
+}
+
+.table-container .table-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 80%;
+  height: 80%;
+  background: #cca300;
+  border: solid black;
+}
+
+.table-container .table-main .table {
+  background: #ffe066;
+  width: 90%;
+  border-collapse: collapse;
+  border: solid black;
+}
+
+.table-container .table-main .table thead {
+  background: #b38f00;
+  border: solid black;
+}
+
+
+.table-container .table-main .table tbody td {
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding: 12px;
+}
+
+.table-container .table-main .table tbody td a {
+  text-decoration: none;
+  color: white;
+  background: #ff3333;
+  padding: 6px;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+
+.table-container .table-main .table tbody td .edit {
+  background-color: #6666ff;
+}
+
+.table-container .table-main .table tbody td .read {
+  background-color: #009933;
+}
