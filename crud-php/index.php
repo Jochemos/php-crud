@@ -10,13 +10,17 @@
 </head>
 <body>
   <div class="container">
+    <div class="account-bar">
+      <a href="" class="login">Login</a>
+      <a href="" class="register">Register</a>
+    </div>
     <div class="describe-up">
       <h2>Fill the form</h2>
     </div>
 
     <?php
 
-      include 'model.php';
+      include 'crud/model.php';
       $model = new Model();
       $insert = $model->insert();
 

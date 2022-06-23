@@ -12,12 +12,35 @@
   height: 100vh;
 }
 
+.container .account-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 10%;
+  margin-bottom: 3%;
+}
+
+.container .account-bar a {
+  text-decoration: none;
+  background: #009900;
+  padding: 2% 5%;
+  border-radius: 5%;
+  color: white;
+  border: 2px solid black;
+}
+
 .container .describe-up {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 10%;
+  width: 30%;
+  height: 6%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 5px 5px 0 0;
+  background: #ccf5ff;
 }
 
 .container .form-container {
@@ -25,7 +48,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
+  width: 40vw;
+  padding-bottom: 1%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #99ff99;
 }
 
 .container .form-container .form-group {
